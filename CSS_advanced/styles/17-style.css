@@ -99,6 +99,7 @@ a:active {
 
 .section-header {
     text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
 }
 
 h1,
@@ -109,7 +110,6 @@ h5,
 h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-    padding: var(--section-header-padding);
 }
 
 /* Section Body
