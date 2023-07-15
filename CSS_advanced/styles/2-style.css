@@ -32,13 +32,23 @@ html {
     text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: (var(--nav-item-letter-spacing));
     display: var(--nav-item-display);
     margin: var(--nav-item-margin)
+}
+
+.nav .nav-link {
+    display: block;
+    padding: 0 5rem 1rem;
+
+}
+
+.nav .nav-link-hover {
+    color: var(--nav-item-link-hover)
 }
 
 /* Sections
@@ -192,10 +202,10 @@ h6 {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: calc(3 * var(var(--nav-item-margin)));
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0;
-    --nav-item-link-hover: var(var(--color-primary))
+    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-link-hover: var(--color-primary);
 }
 
 /* Body
