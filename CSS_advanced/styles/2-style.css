@@ -15,15 +15,15 @@ class.visually-hidden {
 }
 
 .card-category {
-    color: var(--primary-color)
+    color: var(--color-primary)
 }
 
 .section-tagline {
-    color: var(--primary-color)
+    color: var(--color-primary)
 }
 
 :root {
-    --primary-color: #d73953;
+    --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
