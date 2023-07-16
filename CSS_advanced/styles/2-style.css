@@ -263,7 +263,7 @@ body {
     text-align: right;
 }
 
-.row+.row::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
