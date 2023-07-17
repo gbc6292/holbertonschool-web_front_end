@@ -82,16 +82,16 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-.buttom {
+.button {
     display: var(--button-display);
     padding: var(--button-padding);
-    border: var(--buttom-border);
+    border: var(--button-border);
     color: var(--color-black);
-    text-decoration: var(--buttom-text-decoration);
-    font-size: var(--buttom-font-size);
+    text-decoration: var(--button-text-decoration);
+    font-size: var(--button-font-size);
 }
 
-.buttom :hover {
+.button :hover {
     color: var(--color-white);
     text-decoration: none;
     background-color: var(--color-primary);
@@ -272,13 +272,13 @@ ul.row {
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
-    --buttom-border: 0.2rem solid var(--color-primary);
-    --buttom-color: var(--color-black);
-    --buttom-text-decoration: none;
-    --buttom-font-size: var(--font-size-large);
-    --buttom-hover-color: var(--color-white);
-    --buttom-hover-text-decoration: none;
-    --buttom-hover-background: var(--color-primary);
+    --button-border: 0.2rem solid var(--color-primary);
+    --button-color: var(--color-black);
+    --button-text-decoration: none;
+    --button-font-size: var(--font-size-large);
+    --button-hover-color: var(--color-white);
+    --button-hover-text-decoration: none;
+    --button-hover-background: var(--color-primary);
 
 }
 
@@ -331,5 +331,5 @@ body {
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
-    --buttom-color: var(--color-white) background: var(--color-black);
+    --button-color: var(--color-white) background: var(--color-black);
 }
