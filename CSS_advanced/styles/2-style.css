@@ -178,7 +178,7 @@ a:active {
 }
 
 .card-work .card-title a {
-    position: absolute;
+    display: block;
     text-decoration: none;
     padding: 45%;
 
