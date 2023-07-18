@@ -86,15 +86,15 @@ a:active {
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
-    color: var(--color-black);
+    color: var(--button-color);
     text-decoration: var(--button-text-decoration);
     font-size: var(--button-font-size);
 }
 
 .button:hover {
-    color: var(--color-white);
-    text-decoration: none;
-    background-color: var(--color-primary);
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background-color: var(--button-hover-background);
 }
 
 /* Hidden
@@ -331,5 +331,6 @@ body {
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
-    --button-color: var(--color-white) background: var(--color-black);
+    --button-color: var(--color-white);
+    background: var(--color-black);
 }
