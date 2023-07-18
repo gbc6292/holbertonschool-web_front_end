@@ -91,7 +91,7 @@ a:active {
     font-size: var(--button-font-size);
 }
 
-.button :hover {
+.button:hover {
     color: var(--color-white);
     text-decoration: none;
     background-color: var(--color-primary);
